@@ -1,5 +1,6 @@
 <template>
-  <iframe :src="src" class="iframe-box"></iframe>
+  <!--直接修改iframe的src会推入新的路由，key每次生成新的iframe实例-->
+  <iframe :src="src" class="iframe-box" :key="src"></iframe>
 </template>
 
 <script>
