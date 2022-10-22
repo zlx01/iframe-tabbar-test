@@ -7,27 +7,3 @@
 3. tabbar为fixed布局时，Android下会被软键盘顶起。修改为flex布局规避这个问题。
 4. iframe动态生成src产生一次多余的路由记录，造成返回上个页面需要点两次返回
 
----
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

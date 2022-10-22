@@ -1,5 +1,5 @@
 <template>
-  <!--直接修改iframe的src会推入新的路由，key每次生成新的iframe实例-->
+  <!--直接修改iframe的src会推入新的路由，key不同则每次生成新的iframe实例-->
   <iframe :src="src" class="iframe-box" :key="src"></iframe>
 </template>
 
@@ -10,10 +10,10 @@ export default {
     src() {
       const name = this.$route.name;
       switch (name) {
-        case "baidu":
-          return "https://www.baidu.com";
-        case "game":
-          return "https://xingye.me/game";
+        case "vue2":
+          return "https://zlx01.github.io/vue2-deploy-gh-pages/#/";
+        case "vue3":
+          return "https://zlx01.github.io/vue3-deploy-gh-pages/#/";
         default:
           return "#";
       }

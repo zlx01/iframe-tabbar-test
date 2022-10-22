@@ -4,8 +4,10 @@
       <router-view></router-view>
     </div>
     <van-tabbar route class="tabbar">
-      <van-tabbar-item replace to="/baidu" icon="search">百度</van-tabbar-item>
-      <van-tabbar-item replace to="/game" icon="home-o">游戏</van-tabbar-item>
+      <van-tabbar-item replace to="/vue2" icon="good-job-o">
+        Vue 2
+      </van-tabbar-item>
+      <van-tabbar-item replace to="/vue3" icon="guide-o">Vue 3</van-tabbar-item>
     </van-tabbar>
   </div>
 </template>

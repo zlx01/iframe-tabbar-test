@@ -10,16 +10,16 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
-    redirect: "/baidu",
+    redirect: "/vue2",
     children: [
       {
-        path: "/baidu",
-        name: "baidu",
+        path: "/vue2",
+        name: "vue2",
         component: IframeView,
       },
       {
-        path: "/game",
-        name: "game",
+        path: "/vue3",
+        name: "vue3",
         component: IframeView,
       },
     ],
